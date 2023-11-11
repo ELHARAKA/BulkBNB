@@ -24,7 +24,7 @@ This Python script is designed for interacting with the Binance Smart Chain (BSC
 2. Run the script using Python:
 
    ```python
-   python3 script_name.py --threads [NUMBER_OF_THREADS]
+   python3 bulkbnb.py --threads [NUMBER_OF_THREADS]
    ```
 - Replace `[NUMBER_OF_THREADS]` with the desired number of threads (MAX 10)
 
