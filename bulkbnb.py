@@ -27,7 +27,7 @@ web3 = Web3(Web3.HTTPProvider(bsc))
 if not web3.is_connected():
     raise Exception("Failed to connect to Binance Smart Chain")
 
-destination_address = 'PASTE_YOUR_WALLET_ADDRESS_HERE' # This line Should be like this: destination_address = '0x1CB31DB63B84e8e51DDB4eD4aED844EeeD0851a1'
+destination_address = 'PASTE_YOUR_WALLET_ADDRESS_HERE'
 
 def get_balance(private_key):
     account = Account.from_key(private_key)
